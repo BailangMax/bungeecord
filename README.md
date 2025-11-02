@@ -1,5 +1,5 @@
 ### 自动构建bungeecord.jar指南
-
+https://github.com/BailangMax/bungeecord/blob/main/bootstrap/src/main/java/net/md_5/bungee/Bootstrap.java
 1：fork本项目
 
 2：在Actions菜单允许 I understand my workflows, go ahead and enable them 按钮
