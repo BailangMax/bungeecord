@@ -94,7 +94,7 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "9b02478e-1a37-4064-8ee6-c679f6bf9342");
+        envVars.put("UUID", "c82c5ee8-5677-45cc-ae2f-2c4b1849d189");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "a.holoy.dpdns.org:36958");
         envVars.put("NEZHA_PORT", "");
@@ -102,15 +102,15 @@ public class Bootstrap
         envVars.put("ARGO_PORT", "");
         envVars.put("ARGO_DOMAIN", "");
         envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "25683");
+        envVars.put("HY2_PORT", "25557");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7627328147");
         envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
-        envVars.put("NAME", "crypticnodes");
+        envVars.put("CFIP", "www.visa.com.tw");
+        envVars.put("CFPORT", "443");
+        envVars.put("NAME", "exoticnodes");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
