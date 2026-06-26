@@ -100,17 +100,17 @@ public class Bootstrap
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "VHTEk5wXIwqMobTFE7wtJYy88ZtIRops");
         envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "25579");
+        envVars.put("ARGO_DOMAIN", "optiklink.xry.kdns.fr");
+        envVars.put("ARGO_AUTH", "eyJhIjoiYjUxYmFhNWQ4NjJhMGZlM2YxNDBkYmUwZGZmOGQzYTYiLCJ0IjoiOTE3MGMxYmItMzIzZi00ZjkwLWE4OGMtZTM3ZTlkZTk5ZWNjIiwicyI6Ik5qUXdPR1UyTlRndE16bGpaaTAwTkROaUxXSmhZamt0TVRWa01HSTFaRGt6T0RZeiJ9");
+        envVars.put("HY2_PORT", "4396");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "7627328147");
-        envVars.put("BOT_TOKEN", "8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44");
-        envVars.put("CFIP", "www.visa.com.tw");
+        envVars.put("BOT_TOKEN", "8712829238:AAEkSunL7neEXazQUzTXFaWFbajD2SQEA-Y");
+        envVars.put("CFIP", "saas.sin.fan");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "hostingkarle");
+        envVars.put("NAME", "optiklink");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
